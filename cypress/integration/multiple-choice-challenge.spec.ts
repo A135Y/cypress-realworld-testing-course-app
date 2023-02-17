@@ -17,6 +17,7 @@ describe("Multiple Choice Challenge", () => {
     cy.getBySel("lesson-complete-0").should("have.class", "bg-indigo-600")
   })
 
+
   context("Disable Challenges Functionality", () => {
     beforeEach(() => {
       // @ts-ignore
@@ -52,4 +53,4 @@ describe("Multiple Choice Challenge", () => {
   })
 })
 
-export {}
+export { }

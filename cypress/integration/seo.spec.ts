@@ -24,6 +24,7 @@ describe("SEO titles and descriptions", function () {
       `${title} | Testing Next.js Applications with Cypress`
     )
 
+
     cy.get('head meta[name="description"]').should(
       "have.attr",
       "content",
@@ -51,4 +52,4 @@ describe("SEO titles and descriptions", function () {
   })
 })
 
-export {}
+export { }

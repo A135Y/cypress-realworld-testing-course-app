@@ -20,6 +20,7 @@ if (Cypress.platform === "linux") {
         .should("contain", "Sitemap: https://cypress-realworld-testing-course-app.vercel.app/")
     })
   })
+
 }
 
-export {}
+export { }

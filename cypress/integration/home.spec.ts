@@ -27,4 +27,4 @@ describe("RWT Home", function () {
   })
 })
 
-export {}
+export { }

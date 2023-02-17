@@ -14,6 +14,7 @@ describe("Progress State & Local Storage", () => {
     cy.restoreLocalStorage()
   })
 
+
   afterEach(() => {
     // @ts-ignore
     cy.saveLocalStorage()

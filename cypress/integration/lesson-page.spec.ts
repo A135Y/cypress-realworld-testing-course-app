@@ -50,4 +50,4 @@ describe("Lesson Pages", () => {
   })
 })
 
-export {}
+export { }

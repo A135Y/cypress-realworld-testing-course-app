@@ -14,4 +14,4 @@ describe("Courses API", () => {
   })
 })
 
-export {}
+export { }
